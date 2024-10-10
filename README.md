@@ -73,8 +73,8 @@ Antes de começar, você precisará dos seguintes requisitos:
 1. **Clone este repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/yurilinc-dev/dockerapi-python.git
+   cd dockerapi-python
    ```
 
 2. **Instalar dependências Python:**
@@ -103,9 +103,12 @@ Antes de começar, você precisará dos seguintes requisitos:
    ```
    CHANNEL_ID=1316156465413131654
    WEBHOOK_ID=w_2_eRN4_UNIbKKU16f07vp0IsIM_v81ofN88jwbp
+   IP=127.0.0.1
+   PORT=2375
    ```
 
    O `CHANNEL_ID` e `WEBHOOK_ID` são valores fornecidos pelo webhook do Discord.
+   O `IP` e `PORT` são valores fornecidos conforme a configuração do Docker file para API.
 
 ## Como Executar
 

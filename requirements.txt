@@ -1,0 +1,7 @@
+docker
+datetime
+requests
+logging
+time
+os
+dotenv
